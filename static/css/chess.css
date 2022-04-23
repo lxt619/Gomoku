@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#app{
+  width: 100%;
+  background: url(../../src/assets/back.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#content{
+  position: absolute;
+  left: 35%;
+}
+.gameTitle{
+  width: 30rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.actionButtons{
+  width: 30rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+
+}
+.main{
+  background-color: rgb(185, 168, 145);
+  width: 30rem;
+}
+.restart,.backChess,.cancelBackChess{
+  background: rgb(105, 105, 105);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  color: white;
+}
+.admit{
+  position: relative;
+  top: 70px;
+  left: 1000px;
+  background: rgb(196, 164, 164);
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  color: black;
+}
+.toggle{
+  float: right;
+}
+.successText {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
