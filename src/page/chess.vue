@@ -216,7 +216,7 @@ export default {
         });
         this.step--;
       } else {
-        this.$alert("You cannot cancel withdraw", "alert");
+        this.$alert("You cannot withdraw", "alert");
       }
     },
     // cancel withdraw
